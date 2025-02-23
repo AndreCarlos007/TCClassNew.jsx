@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Sobre = () => {
   return (
@@ -63,26 +64,30 @@ const Sobre = () => {
 
                 </section>
 
-                <section>
+                <section className='mt-16'>
                     <div>
-                        <div></div>
+                        <h1 className='font-Space_Grotesk text-[1.5625rem] text-colorTextPrimary'>Sobre Nós</h1>
+                        <div className=" border-b-colorTextPrimary border-b-2 mx-14 mt-[2px] font-medium"></div>
+                    </div>
+
+                    <div className='flex flex-col mt-8 items-center'>
+                        <h1 className='text-[3rem] text-colorTextPrimary font-Radio_Canada_Big font-bold'>O QUE É A</h1>
+                        <Image src="/Logo.AVIF" alt='Logo do TCClass' width={252} height={52} />
+                        <span className='mt-[3rem] text-[1.375rem] font-medium font-Space_Grotesk text-left text-colorTextPrimary'>Plataforma que combina IA e professores especializados para ajudar 
+                            estudantes na revisão e correção de TCCs, identificando erros, 
+                            sugerindo melhorias e oferecendo uma mentoria tecnológica sem reescrever o 
+                            conteúdo.
+                        </span>
+                        <span className='mt-[1.5rem] text-[1.375rem] font-medium font-Space_Grotesk text-left text-colorTextPrimary'>
+                        Conecta estudantes a freelancers acadêmicos para correção humanizada, mentoria e 
+                        ajuda na estruturação do TCC. O aluno define suas necessidades e orçamento, enquanto os 
+                        profissionais podem aceitar ou negociar valores até um acordo justo. 
+                        </span>
                     </div>
 
                     <div>
-
-                    </div>
-
-                    <div>
-
-                    </div>
-
-                    <div>
-
-                    </div>
-
-                    <div>
-                        <button>
-
+                        <button className='text-[1.375rem] my-16 font-medium font-Space_Grotesk w-full rounded-xl h-14  text-colorWhite bg-bgColorDarkBlue'>
+                            Saiba Mais
                         </button>
                     </div>
                 </section>
