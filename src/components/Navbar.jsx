@@ -13,16 +13,16 @@ const Navbar = () => {
   };
   const itemNavBar = [
     { link: "Home", path: "/" },
-    { link: "Sobre", path: "sobre" },
-    { link: "Tcc-ia", path: "tccia" },
-    { link: "Tcc-prof", path: "tccprof" },
-    { link: "Feedback", path: "feedback" },
-    { link: "Contatos", path: "contato" },
+    { link: "Sobre", path: "/" },
+    { link: "Tcc-ia", path: "/" },
+    { link: "Tcc-prof", path: "/" },
+    { link: "Feedback", path: "/" },
+    { link: "Contatos", path: "/" },
   ];
 
   return (
     <>
-      <nav className="shadow-md my-2 py-4  fixed top-0 right-0 left-0 ">
+      <nav className="shadow-md my-2 py-4 bg-bgColorGray  fixed top-0 right-0 left-0 z-[100]">
         <div className="flex  mx-[2.125rem] justify-between ">
           <Link href="/">
             <Image
@@ -37,7 +37,7 @@ const Navbar = () => {
             {/* Aqui eu mostro a nsvItems usando .map */}
             <ul className="hidden md:flex md:gap-10 font-Space_Grotesk">
               {itemNavBar.map(({ link, path }) => (
-                <Link href={path} key={path} className="block cursor-pointer">
+                <Link href={path} key={link} className="block cursor-pointer">
                   {link}
                 </Link>
               ))}
@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex gap-2 ">
-            <div className="">
+            <div className="cursor-pointer">
               <Image
                 src="/Perfil.AVIF"
                 alt="Perfil do user"
@@ -70,7 +70,7 @@ const Navbar = () => {
 
       {/* Itens da Navbar pro mobile */}
       <div
-        className={`mt-[3.4rem] bg-bgColorDarkBlue py-2 ${
+        className={`mt-[3.4rem] bg-bgColorDarkBlue z-[100] py-2 ${
           isMenuAberto ? "flex flex-col fixed top-4  right-0 left-0" : "hidden"
         }`}
       >
@@ -78,7 +78,7 @@ const Navbar = () => {
           <Link
             href={path}
             onClick={toggleMenu}
-            key={path}
+            key={link}
             className="py-3 font-Space_Grotesk flex justify-center text-colorWhite "
           >
             {link}
