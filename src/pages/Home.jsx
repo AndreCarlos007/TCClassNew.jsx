@@ -3,9 +3,6 @@ import React from "react";
 const Home = () => {
   return (
     <div className="flex flex-col ">
-        <div className="absolute">
-            
-        </div>
       <div className="mt-36 mx-[2.125rem] max-w-[100vw] text-center">
         <div className="flex flex-col ">
           <h1 className="text-5xl sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center">
@@ -34,6 +31,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="relative bottom-[-4.5rem] max-w-[100vw]">
+      <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1000 100"><g fill="#FFFFFF"><rect fill="#EDF0F2" width="100%" height="100%"/><path d="M0 0v99.7C62 69 122.4 48.7 205 66c83.8 17.6 160.5 20.4 240-12 54-22 110-26 173-10a392.2 392.2 0 0 0 222-5c55-17 110.3-36.9 160-27.2V0H0Z" opacity=".5"></path><path d="M0 0v74.7C62 44 122.4 28.7 205 46c83.8 17.6 160.5 25.4 240-7 54-22 110-21 173-5 76.5 19.4 146.5 23.3 222 0 55-17 110.3-31.9 160-22.2V0H0Z"></path></g></svg>
       </div>
     </div>
   );
