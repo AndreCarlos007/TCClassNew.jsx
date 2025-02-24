@@ -5,7 +5,7 @@ const Home = () => {
     <div className="flex flex-col ">
       <div className="mt-36 mx-[2.125rem] max-w-[100vw] text-center">
         <div className="flex flex-col ">
-          <h1 className="text-5xl sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center">
+          <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center">
             REVISE <span className="text-colorTextSecundary">E</span> CORRIJA{" "}
             <span className="text-colorTextSecundary">SEU TCC</span>
           </h1>
