@@ -2,19 +2,17 @@ import React from 'react'
 import Home from "@/pages/Home";
 import Sobre from "@/pages/Sobre";
 import Tccia from '@/pages/Tccia';
+import Tccprof from '@/pages/Tccprof';
+import Feedback from '@/pages/Feedbacks';
 
 const page = () => {
   return (
     <div>
-       <div>
           <Home />
-          </div>
-          <div className="mt-16">
           <Sobre />
-          </div>
-          <div className=''>
-            <Tccia />
-          </div>
+          <Tccia />
+          <Tccprof />
+          <Feedback />
     </div>
   )
 }
