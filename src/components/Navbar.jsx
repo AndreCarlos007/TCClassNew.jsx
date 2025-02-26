@@ -22,8 +22,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="shadow-md my-2 py-4 bg-bgColorGray  fixed top-0 right-0 left-0 z-[100]">
-        <div className="flex  mx-[2.125rem] justify-between ">
+      <nav className="shadow-md  mb-2 py-6 bg-bgColorGray  fixed top-0 right-0 left-0 z-[100]">
+        <div className="flex mx-[2.125rem] justify-between ">
           <Link href="/">
             <Image
               className="inline-block items-center "
@@ -70,7 +70,7 @@ const Navbar = () => {
 
       {/* Itens da Navbar pro mobile */}
       <div
-        className={`mt-[3.4rem] bg-bgColorDarkBlue z-[100] py-2 ${
+        className={`mt-[4rem] bg-bgColorDarkBlue z-[100] py-2 ${
           isMenuAberto ? "flex flex-col fixed top-4  right-0 left-0" : "hidden"
         }`}
       >

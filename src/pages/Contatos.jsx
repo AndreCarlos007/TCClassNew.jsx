@@ -148,7 +148,7 @@ const Contatos = () => {
                 <input placeholder="Nome" className="bg-bgColorDarkBlue  w-[14.625rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
                 <input placeholder="Título" className="bg-bgColorDarkBlue w-[14.625rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
                 <textarea placeholder="Conteúdo" className="bg-bgColorDarkBlue pt-1 w-[14.625rem] h-36 text-colorWhite pl-3 rounded-[10px]" name="" id=""></textarea>
-                <button className="bg-bgColorDarkBlue w-[7rem] h-9 text-colorWhite font-Space_Grotesk text-base rounded-[10px]" type="submit" name="enviar">Enviar</button>
+                <button  className="bg-bgColorDarkBlue w-[7rem] h-9 text-[#929aa8] hover:text-colorWhite transition-all duration-300 font-Space_Grotesk text-base rounded-[10px]" type="submit" name="enviar">Enviar</button>
               </form>
               </div>
             </div>
