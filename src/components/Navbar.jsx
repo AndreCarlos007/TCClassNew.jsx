@@ -68,6 +68,7 @@ const Navbar = () => {
         </div>
       </nav>
 
+
       {/* Itens da Navbar pro mobile */}
       <div
         className={`mt-[4rem] bg-bgColorDarkBlue z-[100] py-2 ${
