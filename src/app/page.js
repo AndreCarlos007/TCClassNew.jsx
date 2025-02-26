@@ -3,7 +3,8 @@ import Home from "@/pages/Home";
 import Sobre from "@/pages/Sobre";
 import Tccia from '@/pages/Tccia';
 import Tccprof from '@/pages/Tccprof';
-import Feedback from '@/pages/Feedbacks';
+import Feedbacks from '@/pages/Feedbacks';
+import Contatos from '@/pages/Contatos';
 
 const page = () => {
   return (
@@ -12,7 +13,8 @@ const page = () => {
           <Sobre />
           <Tccia />
           <Tccprof />
-          <Feedback />
+          <Feedbacks />
+          <Contatos />
     </div>
   )
 }
