@@ -2,18 +2,20 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div id="section1" className="flex flex-col">
-      <div className="mt-36 mx-[2.125rem] max-w-[100vw] text-center">
-        <div className="flex flex-col ">
-          <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center">
+    <div id="section1" className="flex flex-col ">
+      <div className="mt-36 mx-[2.125rem] max-w-[100vw] text-center md:flex justify-center items-center md:gap-16 ">
+        <div className="flex flex-col md:max-w-md">
+          <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center md:text-left">
             REVISE <span className="text-colorTextSecundary">E</span> CORRIJA{" "}
             <span className="text-colorTextSecundary">SEU TCC</span>
+            <div className=" border-b-colorTextPrimary border-b-2  my-5  "></div>
           </h1>
-        </div>
-        <div className=" border-b-colorTextPrimary  border-b-4 mx-14 my-5"></div>
-        <span className="text-colorTextPrimary text-xs font-Space_Grotesk">
+          <span className="text-colorTextPrimary text-xs font-Space_Grotesk md:text-left">
           Rápido e fácil... em poucos segundos... de "graça".
         </span>
+        </div>
+        
+        
         <div className="flex justify-center">
           <div className="bg-gray-400 shadow-md  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-200 w-64 h-64 gap-6 mt-5 flex flex-col justify-center items-center font-Space_Grotesk rounded-[1.25rem]">
             <div>

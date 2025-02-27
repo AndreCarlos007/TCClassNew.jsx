@@ -7,6 +7,7 @@ import Feedbacks from '@/pages/Feedbacks';
 import Contatos from '@/pages/Contatos';
 
 const page = () => {
+
   return (
     <div>
           <Home />

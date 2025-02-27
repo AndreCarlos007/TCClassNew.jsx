@@ -23,20 +23,23 @@ const Navbar = () => {
 
   // Função para scroll suave
   const handleNavClick = (targetId) => {
+    const offSet = 50;
+
     const targetElement = document.querySelector(targetId);
     window.scrollTo({
-      top: targetElement.offsetTop,
+      top: targetElement.offsetTop - offSet,
       behavior: 'smooth',
     });
+
   };
 
   return (
     <>
-      <nav className="shadow-md mb-2 py-6 bg-bgColorGray fixed top-0 right-0 left-0 z-[100]">
-        <div className="flex mx-[2.125rem] justify-between">
-          <Link href="/">
-            <Image className="inline-block items-center " src="/Logo.AVIF" alt="Logo" width={145} height={30} />
-          </Link>
+      <nav className="shadow-md mb-2 py-3 bg-bgColorGray fixed top-0 right-0 left-0 z-[100]">
+        <div className="flex mx-[2.125rem] justify-between items-center">
+          <button onClick={() => handleNavClick("#section1")} className="h-16">
+            <Image className="" src="/Logo.AVIF" alt="Logo" width={150} height={30} />
+          </button>
           <div className="md:flex">
             {/* Links de navegação no desktop */}
             <ul className="hidden md:flex md:gap-10 font-Space_Grotesk">
@@ -71,7 +74,8 @@ const Navbar = () => {
       >
         {itemNavBar.map(({ link, path }) => (
           <button
-            onClick={() => handleNavClick(path)}
+            onClick={() => { handleNavClick(path), toggleMenu()}}
+            
             key={link}
             className="py-3 font-Space_Grotesk flex justify-center text-colorWhite"
           >
