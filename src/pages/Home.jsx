@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="flex flex-col ">
+    <div id="section1" className="flex flex-col">
       <div className="mt-36 mx-[2.125rem] max-w-[100vw] text-center">
         <div className="flex flex-col ">
           <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center">

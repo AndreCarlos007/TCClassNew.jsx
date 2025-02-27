@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Sobre = () => {
   return (
-<div className='bg-bgColorGray mt-16'>
+<div id='section2' className='bg-bgColorGray mt-16'>
     <div className="flex flex-col ">
       <div className="mt-16 mb-1 mx-[2.125rem] max-w-[100vw]  ">
             <div className="flex flex-col ">

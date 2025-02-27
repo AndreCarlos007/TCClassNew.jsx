@@ -1,9 +1,17 @@
+"use client"
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 
 const Footer = () => {
+
+  const handleNavClick = (targetId) => {
+    const targetElement = document.querySelector(targetId);
+    window.scrollTo({
+      top: targetElement.offsetTop,
+      behavior: 'smooth',
+    });
+  };
   return (
     <div className="">
       <div className="">
@@ -17,9 +25,9 @@ const Footer = () => {
                 Desenvolvido por André Carlos
                 </span>
                 </div>
-                <Link href="/">
+                <button onClick={() => handleNavClick("#section1")}>
                   <FaArrowAltCircleUp className="text-[2.5rem] text-colorTextPrimary" />
-                </Link>
+                </button>
               </div>
               <div>
                 <span className="font-Space_Grotesk text-colorTextPrimary">

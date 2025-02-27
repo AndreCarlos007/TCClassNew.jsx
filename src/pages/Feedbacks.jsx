@@ -11,7 +11,7 @@ import React from "react";
 
 const Feedbacks = () => {
   return (
-    <div>
+    <div id="section5">
       <div className="">
         <div className="flex flex-col ">
           <div className="mt-16 mb-16 mx-[2.125rem] max-w-[100vw] text-center ">
