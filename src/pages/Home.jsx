@@ -2,8 +2,8 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div id="section1" className="flex flex-col ">
-      <div className="mt-36 mx-[2.125rem] max-w-[100vw] text-center md:flex justify-center items-center md:gap-16 ">
+    <div id="section1" className="flex flex-col">
+      <div className=" mt-32 md:mt-0 mx-[2.125rem] max-w-[100vw] min-h-screen text-center md:flex justify-center items-center md:gap-16 ">
         <div className="flex flex-col md:max-w-md">
           <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center md:text-left">
             REVISE <span className="text-colorTextSecundary">E</span> CORRIJA{" "}

@@ -4,9 +4,11 @@ const Tccprof = () => {
   return (
     <div id='section4' className='bg-bgColorDarkBlue'>
       <div className="">
-        <div className="flex flex-col ">
-          <div className="mt-16 mb-16 mx-[2.125rem] max-w-[100vw] text-center ">
-            <div className="flex flex-col ">
+        <div className="flex flex-col justify-center min-h-screen items-center">
+          <div className="mt-16 mb-16 mx-[2.125rem] md:max-w-[50vw]  ">
+            <div className="flex flex-col md:flex-row gap-28">
+              <div>
+
                 <div>
                   <h1 className="text-[2.375rem] text-colorWhite font-bold font-Radio_Canada_Big">TCClass Prof</h1>
                 </div>
@@ -67,13 +69,16 @@ const Tccprof = () => {
                 <p>5.00</p> <p>out of</p><p >5</p>
                 </div>
                 </div>
+                </div>
 
+                <div>
                 <div className="flex justify-center mt-[3.75rem]">
                 <div className="bg-gray-400 shadow-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-colorGray w-64 h-64 gap-2 mt-5 flex flex-col justify-center items-center font-Space_Grotesk rounded-[1.25rem]">
                     <button className="text-colorWhite bg-bgColorDarkBlue text-base px-6 py-2 rounded-[0.625rem]">
                       Fale com um prof
                     </button>
                     <p className="text-xs text-colorWhite font-Space_Grotesk mx-[1.5rem] text-left">Você será redirecionado para outra página...</p>
+                </div>
                 </div>
                 </div>
             </div>

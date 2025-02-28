@@ -1,10 +1,9 @@
 import React from "react";
-import Image from "next/image";
 
 const Sobre = () => {
   return (
     <div id="section2" className="bg-bgColorGray mt-16">
-      <div className="flex flex-col ">
+      <div className="flex flex-col min-h-screen">
         <div className="mt-[5.5rem] mb-[5rem] mx-[2.125rem]  max-w-[100vw]  ">
           <div>
             <div className="mb-10 md:mb-0">
@@ -12,98 +11,15 @@ const Sobre = () => {
                 Sobre Nós
                 <div className="flex justify-center border-b border-colorTextPrimary mx-[30vw]"></div>
               </h1>
-              
             </div>
           </div>
-          <div className="flex flex-col justify-center md:flex-row md:gap-10 md:items-center ">
-            <section className="">
-              <div className="flex flex-col md:flex-row md:gap-5  items-center">
-                <div>
-                  <svg
-                    fill="none"
-                    stroke="#1c2d45"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-16 h-16"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                  </svg>
-                </div>
-
-                <div>
-                  <h1 className="font-Radio_Canada_Big font-bold text-[2.1875rem] text-colorTextPrimary mt-[3rem]">
-                    Análise
-                  </h1>
-                  <p className="text-colorTextPrimary font-Space_Grotesk text-[1.375rem] md:text-base text-justify">
-                    A IA avalia o TCC, identificando erros ortográficos,
-                    sugerindo melhorias e comparando com outros trabalhos.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-col md:flex-row md:gap-5 items-center mt-[1rem] ">
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 64 64"
-                    width="60px"
-                    height="60px"
-                    stroke="#1c2d45"
-                    fill="#1c2d45"
-                  >
-                    <path
-                      d="M 27 9 C 17.075 9 9 17.075 9 27 C 9 36.925 17.075 45 27 45 C 31.129213 45 34.9263 43.587367 37.966797 41.240234 L 51.048828 54.322266 C 51.952828 55.226266 53.418266 55.226266 54.322266 54.322266 C 55.226266 53.418266 55.226266 51.952828 
-                    54.322266 51.048828 L 41.240234 37.966797 C 43.587367 34.9263 45 31.129213 45 27 C 45 17.075 36.925 9 27 9 z M 27 13 C 34.719 13 41 19.281 41 27 C 41 34.719 34.719 41 27 41 C 19.281 41 13 34.719 13 27 C 
-                    13 19.281 19.281 13 27 13 z"
-                    />
-                  </svg>
-                </div>
-
-                <div>
-                  <h1 className="font-Radio_Canada_Big font-bold text-[2.1875rem] text-colorTextPrimary mt-[1rem]">
-                    Revisão
-                  </h1>
-                  <p className="text-colorTextPrimary font-Space_Grotesk text-[1.375rem] md:text-base text-justify ">
-                    Feedback detalhado com sugestões para aprimorar a escrita,
-                    estrutura e coesão do texto, sem reescrevê-lo.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-col md:flex-row md:gap-5 items-center mt-[1rem]">
-                <div>
-                  <svg
-                    fill="none"
-                    stroke="#1c2d45"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-16 h-16"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-                <div>
-                  <h1 className="font-Radio_Canada_Big  font-bold text-[2.1875rem] text-colorTextPrimary mt-[3rem]">
-                    Prossionais 
-                  </h1>
-                  <p className="text-colorTextPrimary font-Space_Grotesk text-[1.375rem] md:text-base text-justify  ">
-                    Conexão com especialistas para mentoria e correção
-                    humanizada, com negociação direta entre aluno e professor.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            <section className=" md:max-w-[45vw]">
+          <div className="flex flex-col justify-center md:flex-row md:gap-32 md:items-center ">
+           
+            <section className="md:max-w-[50vw]">
               <div className="flex flex-col mt-8 items-center">
               <div className="flex flex-col items-center lg:flex-row gap-5">
-              <h1 className="text-[2rem] text-colorTextPrimary font-Radio_Canada_Big font-bold">
-                O que é a TCClass ? Entenda um pouco mais sobre a gente...
+              <h1 className="text-[2rem]  text-colorTextPrimary font-Radio_Canada_Big font-bold">
+                O que é a TCClass ? 
               </h1>
              
             </div>
