@@ -5,7 +5,7 @@ const Home = () => {
     <div id="section1" className="flex flex-col ">
       <div className=" mt-32 md:mt-0 mx-[2.125rem] max-w-[100vw] min-h-screen text-center md:flex justify-center items-center md:gap-16 ">
         <div className="flex flex-col md:max-w-md">
-          <h1 className="text-5xl text-wrap sm:text-6xl font-Mabry_Pro  font-bold text-colorTextPrimary text-center md:text-left">
+          <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big  font-bold text-colorTextPrimary text-center md:text-left">
             Revise <span className="text-colorTextSecundary">e</span> corrija{" "}
             <span className="text-colorTextSecundary">seu tcc...</span>
             <div className=" border-b-colorTextPrimary border-b-2  my-5  "></div>
