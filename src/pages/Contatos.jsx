@@ -16,16 +16,17 @@ const Contatos = () => {
                 <div className="flex justify-center border-b border-colorTextPrimary"></div>
                 </div>
                 <h1 className="leading-none mt-8 text-[2.375rem] font-Radio_Canada_Big font-bold text-colorTextPrimary">
-                  Contate-se <br /> Comigo!
+                  Contate-se comigo!
                 </h1>
               </div>
 
               <div className="flex flex-col mt-8">
-                <div className="flex flex-col gap-1">
+
+                <div className="flex flex-col justify-center items-center md:flex-row md:gap-10 gap-1">
                   <Link
                     href="https://www.linkedin.com/in/andr%C3%A9-carloscx/"
                     target="_blank"
-                    className="flex items-center gap-4"
+                    className="flex items-center"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +71,7 @@ const Contatos = () => {
                   <Link
                     href="https://github.com/AndreCarlos007"
                     target="_blank"
-                    className="flex items-center gap-4"
+                    className="flex items-center "
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +108,7 @@ const Contatos = () => {
 
                   <Link
                     href="https://andre-portfoliov2.vercel.app/"
-                    className="flex gap-4 items-center"
+                    className="flex items-center "
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +139,7 @@ const Contatos = () => {
                         </g>
                       </g>
                     </svg>
-                    <span className="text-base font-Space_Grotesk hover:text-colorTextSecundary transition-all duration-300 text-colorTextPrimary font-light">
+                    <span className="text-base  font-Space_Grotesk hover:text-colorTextSecundary transition-all duration-300 text-colorTextPrimary font-light">
                       | Portfólio
                     </span>
                   </Link>
@@ -147,12 +148,13 @@ const Contatos = () => {
 
               <div className="flex flex-col gap-5 mt-16">
               <form className="flex flex-col items-center justify-center gap-5 ">
-                <input placeholder="Nome" className="bg-bgColorDarkBlue  w-[14.625rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
-                <input placeholder="Título" className="bg-bgColorDarkBlue w-[14.625rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
-                <textarea placeholder="Conteúdo" className="bg-bgColorDarkBlue pt-1 w-[14.625rem] h-36 text-colorWhite pl-3 rounded-[10px]" name="" id=""></textarea>
-                <button  className="bg-bgColorDarkBlue w-[7rem] h-9 text-[#929aa8] hover:text-colorWhite transition-all duration-300 font-Space_Grotesk text-base rounded-[10px]" type="submit" name="enviar">Enviar</button>
+                <input placeholder="Nome" className="bg-bgColorDarkBlue  w-[14.625rem] md:w-[30rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
+                <input placeholder="Título" className="bg-bgColorDarkBlue w-[14.625rem] md:w-[30rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
+                <textarea placeholder="Conteúdo" className="bg-bgColorDarkBlue pt-1 w-[14.625rem] md:w-[30rem] h-36 text-colorWhite pl-3 rounded-[10px]" name="" id=""></textarea>
+                <button  className="bg-bgColorDarkBlue w-[10rem] h-9 text-[#929aa8] hover:text-colorWhite transition-all duration-300 font-Space_Grotesk text-base rounded-[10px]" type="submit" name="enviar">Enviar</button>
               </form>
               </div>
+              
             </div>
           </div>
         </div>
