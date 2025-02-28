@@ -5,8 +5,8 @@ const Tccia = () => {
     <div id="section3">
       <div className="bg-bgColorDarkBlue">
         <div className="flex flex-col  min-h-screen justify-center items-center ">
-          <div className="mt-16 mb-16 mx-[2.125rem] md:max-w-[50vw] text-left ">
-            <div className="flex flex-col md:flex-row gap-28">
+          <div className="mt-16 mb-16 mx-[2.125rem] lg:max-w-[50vw] text-left ">
+            <div className="flex flex-col md:flex-row md:gap-16 lg:gap-28">
               <div className="">
                 <div>
                   <h1 className="text-[2.375rem] text-colorWhite font-bold font-Radio_Canada_Big">TCClass IA</h1>

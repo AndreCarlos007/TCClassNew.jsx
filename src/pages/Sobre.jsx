@@ -15,7 +15,7 @@ const Sobre = () => {
           </div>
           <div className="flex flex-col justify-center md:flex-row md:gap-32 md:items-center ">
            
-            <section className="md:max-w-[50vw]">
+            <section className="lg:max-w-[50vw]">
               <div className="flex flex-col mt-8 items-center">
               <div className="flex flex-col items-center lg:flex-row gap-5">
               <h1 className="text-[2rem]  text-colorTextPrimary font-Radio_Canada_Big font-bold">
