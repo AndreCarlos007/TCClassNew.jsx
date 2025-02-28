@@ -12,7 +12,7 @@ const Tccprof = () => {
                   <h1 className="text-[2.375rem] text-colorWhite font-bold font-Radio_Canada_Big">TCClass Prof</h1>
                 </div>
                 <div>
-                <p className="mt-[1rem] text-justify text-colorWhite text-[1.375rem] font-Space_Grotesk">
+                <p className="mt-[1rem] text-left text-colorWhite text-[1.375rem] font-Space_Grotesk">
                 Encontre mentores e corretores para seu TCC com preços justos e atendimento 
                 personalizado. Sua necessidade, seu orçamento, nosso suporte!
                 </p>

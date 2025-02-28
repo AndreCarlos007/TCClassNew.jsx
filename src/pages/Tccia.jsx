@@ -12,7 +12,7 @@ const Tccia = () => {
                   <h1 className="text-[2.375rem] text-colorWhite font-bold font-Radio_Canada_Big">TCClass IA</h1>
                 </div>
                 <div>
-                <p className="mt-[1rem] text-justify text-colorWhite text-[1.375rem]  font-Space_Grotesk">Preocupado com seu TCC?
+                <p className="mt-[1rem] text-left text-colorWhite text-[1.375rem]  font-Space_Grotesk">Preocupado com seu TCC?
                   A IA analisa seu TCC, identifica erros, sugere melhorias e compara 
                   com outros trabalhos. Oferece um feedback detalhado para aprimorar a 
                   escrita, estrutura e coesão sem reescrevê-lo, garantindo um texto mais 

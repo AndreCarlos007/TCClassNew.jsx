@@ -23,13 +23,13 @@ const Sobre = () => {
               </h1>
              
             </div>
-                <span className="mt-[1.5rem] text-[1.375rem]  font-Space_Grotesk text-justify text-colorTextPrimary md:text-base ">
+                <span className="mt-[1.5rem] text-[1.375rem]  font-Space_Grotesk text-left text-colorTextPrimary md:text-base ">
                   Plataforma que combina IA e professores especializados para
                   ajudar estudantes na revisão e correção de TCCs, identificando
                   erros, sugerindo melhorias e oferecendo uma mentoria
                   tecnológica sem reescrever o conteúdo.
                 </span>
-                <span className="mt-[1.5rem] text-[1.375rem]  font-Space_Grotesk text-justify text-colorTextPrimary md:text-base ">
+                <span className="mt-[1.5rem] text-[1.375rem]  font-Space_Grotesk text-left text-colorTextPrimary md:text-base ">
                   Conecta estudantes a freelancers acadêmicos para correção
                   humanizada, mentoria e ajuda na estruturação do TCC. O aluno
                   define suas necessidades e orçamento, enquanto os
