@@ -2,7 +2,7 @@ import React from "react";
 
 const Sobre = () => {
   return (
-    <div id="section2" className="bg-bgColorGray mt-16">
+    <div id="section2" className="bg-bgColorGray mt-16 ">
       <div className="flex flex-col min-h-screen">
         <div className="mt-[5.5rem] mb-[5rem] mx-[2.125rem]  max-w-[100vw]  ">
           <div>

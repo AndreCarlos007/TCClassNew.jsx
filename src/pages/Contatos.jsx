@@ -5,14 +5,16 @@ const Contatos = () => {
   return (
     <div id="section6">
       <div className="">
-        <div className="flex flex-col ">
-          <div className="mt-16 mb-16 mx-[2.125rem] max-w-[100vw] text-center ">
+        <div className="flex flex-col justify-center items-center ">
+          <div className="mt-16 mb-16 mx-[2.125rem] min-h-screen max-w-[50vw] text-center ">
             <div className="flex flex-col ">
               <div>
+                <div>
                 <h2 className="font-Space_Grotesk text-[1.5625rem] text-colorTextPrimary text-center">
                   Contatos
                 </h2>
-                <div className=" border-b-colorTextPrimary border-b-2 mx-14 mt-[2px] font-medium"></div>
+                <div className="flex justify-center border-b border-colorTextPrimary"></div>
+                </div>
                 <h1 className="leading-none mt-8 text-[2.375rem] font-Radio_Canada_Big font-bold text-colorTextPrimary">
                   Contate-se <br /> Comigo!
                 </h1>
