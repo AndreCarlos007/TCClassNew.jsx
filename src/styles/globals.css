@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Mabry Pro";
+  src: url("/fonts/MabryPro-Bold.woff2") format("woff2"); 
+}
 
 :root {
 
@@ -17,14 +21,16 @@
   --bgColorDarkBlue: #1C2D45;
   --bgColorGray: #EDF0F2;
 
-  --font-spaceG: "Space Grotesk", serif;
-  --font-canadaBig: "Radio Canada Big", serif;
+  --font-spaceG: "Mabry Pro";
+  --font-canadaBig: "Mabry Pro";
+  --font-mabryPro: "Mabry Pro";
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 

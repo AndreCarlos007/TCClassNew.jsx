@@ -19,7 +19,8 @@ export default {
   	extend: {
   		fontFamily: {
   			Space_Grotesk: 'var(--font-spaceG)',
-  			Radio_Canada_Big: 'var(--font-canadaBig)'
+  			Radio_Canada_Big: 'var(--font-canadaBig)',
+			Mabry_Pro: 'var(--font-mabryPro)'
   		},
   		colors: {
   			background: 'hsl(var(--background))',

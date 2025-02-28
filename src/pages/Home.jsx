@@ -5,12 +5,12 @@ const Home = () => {
     <div id="section1" className="flex flex-col ">
       <div className=" mt-32 md:mt-0 mx-[2.125rem] max-w-[100vw] min-h-screen text-center md:flex justify-center items-center md:gap-16 ">
         <div className="flex flex-col md:max-w-md">
-          <h1 className="text-5xl text-wrap sm:text-6xl font-Radio_Canada_Big font-bold text-colorTextPrimary text-center md:text-left">
-            REVISE <span className="text-colorTextSecundary">E</span> CORRIJA{" "}
-            <span className="text-colorTextSecundary">SEU TCC</span>
+          <h1 className="text-5xl text-wrap sm:text-6xl font-Mabry_Pro  font-bold text-colorTextPrimary text-center md:text-left">
+            Revise <span className="text-colorTextSecundary">e</span> corrija{" "}
+            <span className="text-colorTextSecundary">seu tcc...</span>
             <div className=" border-b-colorTextPrimary border-b-2  my-5  "></div>
           </h1>
-          <span className="text-colorTextPrimary text-xs font-Space_Grotesk md:text-left">
+          <span className="text-colorTextPrimary text-xs font-Mabry_Pro  md:text-left">
           Rápido e fácil... em poucos segundos... de "graça".
         </span>
         </div>
