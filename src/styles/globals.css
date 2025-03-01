@@ -10,6 +10,11 @@
   src: url("/fonts/MabryPro-Bold.woff2") format("woff2"); 
 }
 
+@font-face {
+  font-family: "Saans TRIAL";
+  src: url("/fonts/SaansTRIAL-Medium.ttf") format("woff2");
+}
+
 :root {
 
   --colorTextPrimary: #1C2D45;
@@ -24,15 +29,28 @@
   --font-spaceG: "Space Grotesk", serif;
   --font-canadaBig: "Radio Canada Big", serif;
   --font-mabryPro: "Mabry Pro";
+  --font-saansTrial: "Saans TRIAL";
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
+::-webkit-scrollbar {
+  width: 4px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 2px;
+}
 
 
 @layer base {

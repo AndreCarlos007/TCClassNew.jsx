@@ -17,10 +17,14 @@ export default {
   		'2xl': '1536px'
   	},
   	extend: {
+		backgroundImage: {
+			'parallax': 'url("/imagem-20.jpg")'
+		},
   		fontFamily: {
   			Space_Grotesk: 'var(--font-spaceG)',
   			Radio_Canada_Big: 'var(--font-canadaBig)',
-			Mabry_Pro: 'var(--font-mabryPro)'
+			Mabry_Pro: 'var(--font-mabryPro)',
+			Saans_Trial: 'var(--font-saansTrial)'
   		},
   		colors: {
   			background: 'hsl(var(--background))',

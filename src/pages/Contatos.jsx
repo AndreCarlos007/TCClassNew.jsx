@@ -6,7 +6,7 @@ const Contatos = () => {
     <div id="section6">
       <div className="">
         <div className="flex flex-col justify-center items-center ">
-          <div className="mt-16 mb-16 mx-[2.125rem] min-h-screen max-w-[50vw] text-center ">
+          <div className="mt-16 mb-16 mx-[2.125rem] md:mx-[6rem] min-h-screen  text-center ">
             <div className="flex flex-col ">
               <div>
                 <div>
@@ -15,7 +15,7 @@ const Contatos = () => {
                 </h2>
                 <div className="flex justify-center border-b border-colorTextPrimary"></div>
                 </div>
-                <h1 className="leading-none mt-8 text-[2.375rem] font-Radio_Canada_Big font-bold text-colorTextPrimary">
+                <h1 className="leading-none mt-8 text-[2.375rem] font-Mabry_Pro font-bold text-colorTextPrimary uppercase">
                   Contate-se comigo!
                 </h1>
               </div>
@@ -146,12 +146,16 @@ const Contatos = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-5 mt-16">
-              <form className="flex flex-col items-center justify-center gap-5 ">
+              <div className="flex flex-col gap-5 mt-16 justify-center items-center">
+              <form className="flex flex-col gap-5 ">
+                  <div className="flex flex-col gap-5">
                 <input placeholder="Nome" className="bg-bgColorDarkBlue  w-[14.625rem] md:w-[30rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
                 <input placeholder="Título" className="bg-bgColorDarkBlue w-[14.625rem] md:w-[30rem] h-9 text-colorWhite pl-3 rounded-[10px]" type="text" />
                 <textarea placeholder="Conteúdo" className="bg-bgColorDarkBlue pt-1 w-[14.625rem] md:w-[30rem] h-36 text-colorWhite pl-3 rounded-[10px]" name="" id=""></textarea>
-                <button  className="bg-bgColorDarkBlue w-[10rem] h-9 text-[#929aa8] hover:text-colorWhite transition-all duration-300 font-Space_Grotesk text-base rounded-[10px]" type="submit" name="enviar">Enviar</button>
+                </div>
+                <div className="flex">
+                <button  className="bg-bgColorDarkBlue  w-[10rem] h-9 text-[#929aa8] hover:text-colorWhite transition-all duration-300 font-Space_Grotesk text-base rounded-[10px]" type="submit" name="enviar">Enviar</button>
+                </div>
               </form>
               </div>
               

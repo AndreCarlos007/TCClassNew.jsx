@@ -9,7 +9,7 @@ const Tccia = () => {
             <div className="flex flex-col md:flex-row md:gap-16 lg:gap-28">
               <div className="">
                 <div>
-                  <h1 className="text-[2.375rem] text-colorWhite font-bold font-Radio_Canada_Big">TCClass IA</h1>
+                  <h1 className="text-[2.375rem] text-colorWhite font-bold font-Mabry_Pro uppercase">TCClass IA</h1>
                 </div>
                 <div>
                 <p className="mt-[1rem] text-left text-colorWhite text-[1.375rem]  font-Space_Grotesk">Preocupado com seu TCC?
@@ -77,7 +77,7 @@ const Tccia = () => {
                   
                 <div className="flex flex-col justify-center items-center mt-[3.75rem]">
                 <div className="bg-gray-400 shadow-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-colorGray w-64 h-64 gap-2 mt-5 flex flex-col justify-center items-center font-Space_Grotesk rounded-[1.25rem]">
-                    <button className="text-colorWhite bg-bgColorDarkBlue text-base px-6 py-2 rounded-[0.625rem]">
+                    <button className="text-colorTextPrimary bg-colorWhite text-base hover:bg-slate-600 transition-all duration-300 px-6 py-2 rounded-[0.625rem]">
                       Fazer upload
                     </button>
                     <p className="text-xs text-colorWhite font-Space_Grotesk mx-[1.5rem] text-left">Você será redirecionado para outra página...</p>

@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="">
       <div className="">
         <div className="flex flex-col ">
-          <div className="mt-2 mb-16 mx-[2.125rem] max-w-[100vw]">
+          <div className="mt-2 mb-16 mx-[2.125rem] lg:mx-[6rem] max-w-[100vw]">
             <div className="flex flex-col gap-5 ">
               <div className="flex items-center justify-between">
                 <div className="flex flex-col">

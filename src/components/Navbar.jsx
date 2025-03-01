@@ -35,8 +35,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="shadow-md mb-2  bg-bgColorGray fixed top-0 right-0 left-0 z-[100]">
-        <div className="flex mx-[2.125rem] justify-between items-center">
+      <nav className="shadow-md mb-2 py-1 bg-bgColorGray fixed top-0 right-0 left-0 z-[100]">
+        <div className="flex mx-[2.125rem] md:mx-[6rem] justify-between items-center">
           <button onClick={() => handleNavClick("#section1")} className="h-16">
             <Image className="" src="/Logo.AVIF" alt="Logo" width={150} height={30} />
           </button>

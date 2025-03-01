@@ -2,7 +2,7 @@ import React from "react";
 
 const Sobre = () => {
   return (
-    <div id="section2" className="bg-bgColorGray mt-16 ">
+    <div id="section2" className="bg-bgColorGray  ">
       <div className="flex flex-col min-h-screen">
         <div className="mt-[5.5rem] mb-[5rem] mx-[2.125rem]  max-w-[100vw]  ">
           <div>
@@ -18,7 +18,7 @@ const Sobre = () => {
             <section className="lg:max-w-[50vw]">
               <div className="flex flex-col mt-8 items-center">
               <div className="flex flex-col items-center lg:flex-row gap-5">
-              <h1 className="text-[2rem]  text-colorTextPrimary font-Radio_Canada_Big font-bold">
+              <h1 className="text-[2rem] uppercase text-colorTextPrimary font-Mabry_Pro font-bold">
                 O que é a TCClass ? 
               </h1>
              
@@ -39,7 +39,7 @@ const Sobre = () => {
               </div>
 
               <div className="flex ">
-                <button className="text-[1.375rem] mt-[1.5rem] font-medium font-Space_Grotesk rounded-xl h-10 w-96 text-colorWhite bg-bgColorDarkBlue">
+                <button className="text-[1.375rem] mt-[1.5rem] hover:bg-slate-600 transition-all duration-300 font-medium font-Space_Grotesk rounded-xl h-10 w-96 text-colorWhite bg-bgColorDarkBlue">
                   Saiba Mais
                 </button>
               </div>

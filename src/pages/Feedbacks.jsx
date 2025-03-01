@@ -90,7 +90,7 @@ const Feedbacks = () => {
               </div>
 
               <div className="mt-7">
-                  <h1 className="text-[2.375rem] font-Radio_Canada_Big font-bold text-colorTextPrimary">Testes Reais!</h1>
+                  <h1 className="text-[2.375rem] font-Mabry_Pro font-bold text-colorTextPrimary">Testes Reais!</h1>
                   <p className="text-[1.375rem] text-colorTextPrimary font-Space_Grotesk">Ta esperando o que? Faça seu login e aproveite 
                     nossas ferramentas...
                     </p>
