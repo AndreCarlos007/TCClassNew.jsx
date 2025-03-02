@@ -26,11 +26,16 @@
     height: 100vh;
     padding-top: 5rem;
     background-color: #1C2D45;
+    z-index: 2;
     display: flex;
     clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
 
-#menuLinkItemHolder {
+#menuLinkItem {
     width: max-content;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#menuLinkItemHolder {
+    position: relative;
 }

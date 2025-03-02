@@ -63,10 +63,11 @@ const Navbar = () => {
   useEffect(() => {
     if (isMenuAberto) {
       tl.current.play();
-    } else {
+    } else  {
+      tl.current.restart();
       tl.current.reverse();
     }
-  }, [isMenuAberto]);
+  }, [!isMenuAberto]);
 
   return (
     <div ref={container}>
@@ -152,6 +153,7 @@ const Navbar = () => {
               </div>
             </nav>
 
+              <div id={styles.menuLinkItem}>
             {itemNavBar.map(({ link, path }) => (
               <button
                 onClick={() => {
@@ -164,6 +166,7 @@ const Navbar = () => {
                 {link}
               </button>
             ))}
+            </div>
           </div>
 
           {/* Seção de Links */}
