@@ -31,11 +31,8 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
 }
 
-#menuLinkItem {
+.menuLinkItem {
     width: max-content;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
-
-#menuLinkItemHolder {
-    position: relative;
+    
 }

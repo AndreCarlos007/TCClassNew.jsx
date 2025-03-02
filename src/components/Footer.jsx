@@ -13,7 +13,7 @@ const Footer = () => {
     });
   };
   return (
-    <div className="bg-[#edf0f2] shadow-2xl">
+    <div className="">
       <div className="pt-2">
         <div className="flex flex-col ">
           <div className="mt-2 pb-2 mx-[2.125rem] md:mx-[6rem] max-w-[100vw]">
@@ -26,8 +26,9 @@ const Footer = () => {
                 </span>
                 <div className="border-b border-colorTextPrimary w-[50vw]"></div>
                 </div>
-                <button onClick={() => handleNavClick("#section1")}>
-                  <FaArrowAltCircleUp className="text-[2.5rem] text-colorTextPrimary" />
+                <button className="text-[3rem] text-colorTextPrimary"
+                 onClick={() => handleNavClick("#section1")}>
+                    &#8599;
                 </button>
               </div>
               <div>

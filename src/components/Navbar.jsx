@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
@@ -26,7 +25,7 @@ const Navbar = () => {
 
   // Função para scroll suave
   const handleNavClick = (targetId) => {
-    const offSet = 50;
+    const offSet = 0;
 
     const targetElement = document.querySelector(targetId);
     window.scrollTo({
@@ -60,6 +59,7 @@ const Navbar = () => {
     { scope: container }
   );
 
+
   useEffect(() => {
     if (isMenuAberto) {
       tl.current.play();
@@ -67,7 +67,7 @@ const Navbar = () => {
       tl.current.restart();
       tl.current.reverse();
     }
-  }, [!isMenuAberto]);
+  }, [isMenuAberto]);
 
   return (
     <div ref={container}>
@@ -153,15 +153,15 @@ const Navbar = () => {
               </div>
             </nav>
 
-              <div id={styles.menuLinkItem}>
+              <div className={styles.menuLinkItem}>
             {itemNavBar.map(({ link, path }) => (
               <button
                 onClick={() => {
                   handleNavClick(path), toggleMenu();
                 }}
                 key={link}
-                className="menuLinkItemHolder text-[2rem] md:text-[4rem] font-Saans_Trial flex mx-[2.125rem] md:mx-[6rem] uppercase leading-none text-colorWhite"
-                id={styles.menuLinkItemHolder}
+                className="menuLinkItemHolder relative text-[2rem] md:text-[4rem] font-Saans_Trial flex mx-[2.125rem] md:mx-[6rem] uppercase leading-none text-colorWhite"
+                
               >
                 {link}
               </button>
