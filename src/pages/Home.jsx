@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div id="section1" className="flex flex-col ">
       <div className=" mt-32 md:mt-0 mx-[2.125rem] lg:mx-[6rem] max-w-[100vw] min-h-screen  md:flex  items-center md:gap-16 ">
-        <div className="flex flex-col md:max-w-lg">
+        <div className="flex flex-col md:max-w-[40vw]">
           <h1 className="text-5xl text-wrap sm:text-6xl font-Mabry_Pro uppercase  font-bold text-colorTextPrimary text-left">
             Revise <span className="text-colorTextSecundary">e</span> Corrija{" "}
             <span className="text-colorTextSecundary">seu Tcc...</span>

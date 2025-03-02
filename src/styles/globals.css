@@ -12,8 +12,9 @@
 
 @font-face {
   font-family: "Saans TRIAL";
-  src: url("/fonts/SaansTRIAL-Medium.ttf") format("woff2");
+  src: url("/fonts/SaansTRIAL.woff2") format("woff2");
 }
+
 
 :root {
 
@@ -28,8 +29,9 @@
 
   --font-spaceG: "Space Grotesk", serif;
   --font-canadaBig: "Radio Canada Big", serif;
-  --font-mabryPro: "Mabry Pro";
+  --font-mabryPro: "Saans TRIAL";
   --font-saansTrial: "Saans TRIAL";
+
 }
 
 * {

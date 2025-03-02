@@ -24,7 +24,7 @@ export default {
   			Space_Grotesk: 'var(--font-spaceG)',
   			Radio_Canada_Big: 'var(--font-canadaBig)',
 			Mabry_Pro: 'var(--font-mabryPro)',
-			Saans_Trial: 'var(--font-saansTrial)'
+			Saans_Trial: 'var(--font-saansTrial)',
   		},
   		colors: {
   			background: 'hsl(var(--background))',
