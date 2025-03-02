@@ -14,7 +14,7 @@ const Feedbacks = () => {
     <div id="section5">
       <div className="">
         <div className="flex flex-col min-h-screen items-center">
-          <div className="mt-16 mb-16 mx-[2.125rem] max-w-[80vw] text-center ">
+          <div className="mt-16 mb-16 mx-[2.125rem] md:mx-[6rem] max-w-[80vw] text-center ">
             <div className="flex flex-col ">
               <div>
                 <h1 className="font-Space_Grotesk text-[1.5625rem] text-colorTextPrimary text-center">

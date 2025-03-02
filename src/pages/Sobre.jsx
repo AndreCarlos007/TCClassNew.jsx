@@ -4,7 +4,7 @@ const Sobre = () => {
   return (
     <div id="section2" className="bg-bgColorGray  ">
       <div className="flex flex-col min-h-screen">
-        <div className="mt-[5.5rem] mb-[5rem] mx-[2.125rem]  max-w-[100vw]  ">
+        <div className="mt-[5.5rem] mb-[5rem] mx-[2.125rem] md:mx-[6rem]  max-w-[100vw]  ">
           <div>
             <div className="mb-10 md:mb-0">
               <h1 className="font-Space_Grotesk  text-[1.5625rem] text-colorTextPrimary text-center">

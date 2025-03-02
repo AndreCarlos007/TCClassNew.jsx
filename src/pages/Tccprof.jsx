@@ -5,7 +5,7 @@ const Tccprof = () => {
     <div id='section4' className='bg-bgColorDarkBlue'>
       <div className="">
         <div className="flex flex-col justify-center min-h-screen items-center">
-          <div className="mt-16 mb-16 mx-[2.125rem] lg:max-w-[50vw]  ">
+          <div className="mt-16 mb-16 mx-[2.125rem] md:mx-[6rem] lg:max-w-[50vw]  ">
             <div className="flex flex-col md:flex-row md:gap-16 lg:gap-28">
               <div>
                 <div>

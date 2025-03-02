@@ -1,0 +1,36 @@
+#navbarAberta, #navbarFechada {
+    position: relative;
+}
+
+#navbarAberta::after, #navbarFechada::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #345B93;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease-in-out;
+}
+
+#navbarAberta:hover::after, #navbarFechada:hover::after {
+    width: 100%;
+
+}
+
+#menuOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 5rem;
+    background-color: #1C2D45;
+    display: flex;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+}
+
+#menuLinkItemHolder {
+    width: max-content;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
