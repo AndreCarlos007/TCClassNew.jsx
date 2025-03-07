@@ -75,7 +75,7 @@ const Navbar = () => {
         <div className="flex mx-[2.125rem] md:mx-[6rem] justify-between items-center">
           <button
             onClick={() => handleNavClick("#section1")}
-            className="h-16 font-Saans_Trial font-bold"
+            className="h-16 text-[1.1rem] font-Saans_Trial font-bold"
           >
             TCCLASS
           </button>
@@ -83,7 +83,7 @@ const Navbar = () => {
           <div className="flex gap-2 ">
             {/* Ícones de abrir/fechar menu para mobile */}
             <div className="">
-              <button onClick={toggleMenu} className="">
+              <button onClick={toggleMenu} className="text-[1.1rem] font-bold">
                 {isMenuAberto ? (
                   <p
                     id={styles.navbarFechada}
@@ -123,7 +123,7 @@ const Navbar = () => {
               <div className="flex mx-[2.125rem] md:mx-[6rem] justify-between items-center">
                 <button
                   onClick={() => handleNavClick("#section1")}
-                  className="h-16 font-Saans_Trial text-colorWhite font-bold"
+                  className="h-16 font-Saans_Trial text-colorWhite text-[1.1rem] font-bold"
                 >
                   TCCLASS
                 </button>
@@ -131,7 +131,7 @@ const Navbar = () => {
                 <div className="flex gap-2 ">
                   {/* Ícones de abrir/fechar menu para mobile */}
                   <div className="">
-                    <button onClick={toggleMenu} className="">
+                    <button onClick={toggleMenu} className="text-[1.1rem] font-bold">
                       {isMenuAberto ? (
                         <p
                           id={styles.navbarFechada}
